@@ -1,2 +1,12 @@
+[alias]
+        # View the current working tree status using the short format
+	    s = status -s
+        ca = commit -am
+        c = commit -m
+        co = checkout
+        fpush = push --force
+        a = add
+
+
 [include]
-  path = ~/.gitconfig.local
+        path = ~/.gitconfig.local
